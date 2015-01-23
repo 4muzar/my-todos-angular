@@ -1,3 +1,8 @@
-'use strict';
-
 /* App Module */
+
+(function () {
+	"use strict";
+
+	angular.module('todoapp', ['todos-controllers']);
+
+})();
